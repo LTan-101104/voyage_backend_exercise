@@ -10,7 +10,7 @@ import io
 from datetime import datetime
 
 MONGO_URL = "mongodb://localhost:27017"
-DB_NAME = "main_db"
+DB_NAME = "test_db"
 COLLECTION_NAME = "resume"
 
 client = AsyncIOMotorClient(MONGO_URL)

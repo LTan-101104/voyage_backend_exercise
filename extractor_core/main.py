@@ -17,7 +17,7 @@ def parse_text(text):
     llm = input.llm()
     data = llm.invoke(input.input_data(text))
     print(type(data))
-    print(data)
+    print(data) #!this is a string
     return data
 
 
